@@ -1,0 +1,9 @@
+docker build -t christopherhein/mx-tracks ./tracks
+docker build -t christopherhein/mx-laptimes ./laptimes
+docker build -t christopherhein/mx-gateway ./gateway
+docker build -t christopherhein/mx-webapp ./webapp
+
+docker push christopherhein/mx-tracks
+docker push christopherhein/mx-laptimes
+docker push christopherhein/mx-gateway
+docker push christopherhein/mx-webapp
